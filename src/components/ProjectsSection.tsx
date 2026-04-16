@@ -4,31 +4,37 @@ import projectImg from "@/assets/project-placeholder.jpg";
 const projects = [
   {
     title: "Portfolio Website",
+    img: "/image.png",
     desc: "A modern portfolio with glassmorphism effects and smooth animations.",
     tags: ["React", "Tailwind CSS"],
   },
   {
     title: "E-Commerce Dashboard",
+    img: "/e-kartinka.webp",
     desc: "Clean admin dashboard with charts, analytics, and responsive design.",
     tags: ["Next.js", "TypeScript"],
   },
   {
     title: "Weather App",
+    img: "/havo-rasm.webp",
     desc: "Real-time weather application with beautiful UI and location-based forecasts.",
     tags: ["React", "API"],
   },
   {
     title: "Task Manager",
+    img: "/taskmanager-rasm.webp",
     desc: "Productivity app with drag-and-drop, categories, and dark mode support.",
     tags: ["React", "Tailwind CSS"],
   },
   {
     title: "Blog Platform",
+    img: "/blograsm.avif",
     desc: "Minimal blog with markdown support, syntax highlighting, and fast loading.",
     tags: ["Next.js", "MDX"],
   },
   {
     title: "Landing Page",
+    img: "/landingrasm.webp",
     desc: "High-converting SaaS landing page with animations and responsive layout.",
     tags: ["HTML", "CSS", "JS"],
   },
@@ -54,7 +60,7 @@ export default function ProjectsSection() {
             >
               <div className="relative overflow-hidden h-48">
                 <img
-                  src={projectImg}
+                  src={p.img}
                   alt={p.title}
                   loading="lazy"
                   width={800}

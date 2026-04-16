@@ -39,7 +39,7 @@ export default function Navbar() {
     >
       <div className="container mx-auto flex items-center justify-between px-6">
         <a href="#home" className="font-display text-xl font-bold gradient-text">
-          Shoxnazar<span className="text-foreground">.</span>
+          Shoxnazar Dev
         </a>
 
         {/* Desktop */}
