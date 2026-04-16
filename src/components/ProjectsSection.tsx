@@ -4,7 +4,7 @@ import projectImg from "@/assets/project-placeholder.jpg";
 const projects = [
   {
     title: "Portfolio Website",
-    img: "/image.png",
+    img: "/image1.png",
     desc: "A modern portfolio with glassmorphism effects and smooth animations.",
     tags: ["React", "Tailwind CSS"],
   },
